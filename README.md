@@ -40,17 +40,20 @@ Docker     Git        GitHub
 
 ## Featured Projects
 
-### 🔬 Ferroptosis Hub Genes & Apoptosis in Ovarian Cancer
-*MSc Dissertation · Dec 2023 – Jun 2024*
+---
 
-Identified differentially expressed and co-expressed genes linking ferroptosis and apoptosis pathways in ovarian cancer through transcriptomic profiling of healthy vs. diseased samples using TCGA data.
+### 🧬 [Ferroptosis Hub Genes & Apoptosis in Ovarian Cancer](https://github.com/shruti-banerjee/ferroptosis-ovarian-cancer-analysis)
 
-- Performed differential expression analysis using **DESeq2** and **edgeR** in R
-- Mined biological databases: **TCGA**, **Ensembl**, **NCBI**
-- Generated heatmaps and volcano plots for visualisation of results
-- Identified hub genes with potential as therapeutic targets
+*MSc Dissertation · Pondicherry University · 2024*
 
-`R` `DESeq2` `edgeR` `TCGA` `Ensembl` `Heatmaps` `Volcano Plots`
+Transcriptomic analysis identifying ferroptosis–apoptosis crosstalk in ovarian cancer from 7,862 differentially expressed genes.
+
+- Full **NGS pipeline**: FastQC → HISAT2 → StringTie → DESeq2
+- Built **PPI networks** using STRING and Cytoscape
+- Identified **CDKN1A and GDF15** as key hub genes linked to platinum drug resistance
+- Publication-quality figures in both **Python** and **R**
+
+`R` `Python` `DESeq2` `HISAT2` `TCGA` `Ensembl` `Cytoscape` `KEGG` `ggplot2`
 
 ---
 
