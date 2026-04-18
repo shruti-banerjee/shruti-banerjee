@@ -54,6 +54,22 @@ Identified differentially expressed and co-expressed genes linking ferroptosis a
 
 ---
 
+### 💊 [Endophyte Drug Discovery — Cheminformatics Pipeline](https://github.com/shruti-banerjee/endophyte-drug-discovery-analysis)
+
+*Bioinformatics Project · 2025*
+
+Computational pipeline screening 15+ endophyte-derived natural compounds 
+as potential drug candidates using real biological databases.
+
+- Fetched molecular data (SMILES, MW, formula) via **PubChem REST API**
+- Applied **Lipinski's Rule of Five** using RDKit to evaluate oral drug-likeness
+- Mined **NCBI PubMed** with Biopython Entrez to track 25-year research trends
+- Generated bioactivity heatmap across 17 compounds and 7 activity categories
+
+`Python` `RDKit` `Biopython` `PubChem API` `NCBI` `Cheminformatics` `Drug Discovery`
+
+---
+
 ### 🌱 [Nanoparticles in Green Pesticides & Sustainable Agriculture](https://github.com/shruti-banerjee/nanotechnology-green-agriculture-review)
 *NTCC Literature Review · 2022*
 
