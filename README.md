@@ -61,12 +61,13 @@ Identified differentially expressed and co-expressed genes linking ferroptosis a
 Computational pipeline screening 15+ endophyte-derived natural compounds 
 as potential drug candidates using real biological databases.
 
-- Fetched molecular data (SMILES, MW, formula) via **PubChem REST API**
-- Applied **Lipinski's Rule of Five** using RDKit to evaluate oral drug-likeness
-- Mined **NCBI PubMed** with Biopython Entrez to track 25-year research trends
-- Generated bioactivity heatmap across 17 compounds and 7 activity categories
+- Fetched molecular data via **PubChem REST API**
+- Applied **Lipinski's Rule of Five** using RDKit for drug-likeness evaluation
+- Mined **NCBI PubMed** with Biopython to track 25-year research trends
+- Built interactive **biological network graph** (Host Plant → Endophyte → Compound → Disease)
+- Trained **Random Forest ML classifier** to predict drug-likeness from molecular descriptors
 
-`Python` `RDKit` `Biopython` `PubChem API` `NCBI` `Cheminformatics` `Drug Discovery`
+`Python` `RDKit` `Biopython` `PubChem API` `NCBI` `NetworkX` `Plotly` `scikit-learn`
 
 ---
 
@@ -92,6 +93,7 @@ A data-driven literature review on nanoparticle applications as eco-friendly alt
 | Pipeline development | Nextflow, Docker — reproducible, automated bioinformatics workflows |
 | Data wrangling | Python (Pandas, NumPy), R — cleaning, processing, analysing high-throughput data |
 | Visualisation | Matplotlib, R plots — heatmaps, volcano plots, publication-ready figures |
+| Cheminformatics | RDKit, PubChem API, NetworkX, Plotly — molecular descriptor analysis, network graphs, ML classification |
 
 ---
 
